@@ -15,6 +15,9 @@ body {
   margin: 0px 160px;
 }
 
+button {
+  font-family: "Fira Sans", serif;
+}
 /* navbar */
 nav {
   display: flex;
@@ -29,9 +32,53 @@ nav {
 
 .nav-btn {
   background-color: white;
+
   font-size: 18px;
   font-weight: 600;
   padding: 15px 30px;
   border: 1px solid #006a50;
   border-radius: 8px;
+}
+
+/* banner style */
+.banner {
+  background-color: #c6e4d6;
+  padding: 80px 60px;
+  margin-top: 20px;
+  border-radius: 24px;
+}
+.banner-content {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-title {
+  color: rgba(14, 14, 15, 0.5);
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+
+.banner-heading {
+  font-size: 48px;
+  margin-top: 0px;
+  margin-bottom: 24px;
+  font-weight: bold;
+}
+
+.banner-image {
+  width: 300px;
+}
+
+.banner-btn {
+  background-color: #006a50;
+  color: white;
+  padding: 17px 34px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
 }
