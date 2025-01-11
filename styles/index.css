@@ -400,13 +400,13 @@ nav {
 
 /* Button styling */
 .newsletter-button {
-  padding: 15px 30px;
+  padding: 15px 20px;
   background-color: #006a50;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   border: none;
-  border-radius: 0 8px 8px 0;
+  border-radius: 0px 8px 8px 0px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
